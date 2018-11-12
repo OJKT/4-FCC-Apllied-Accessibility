@@ -27,28 +27,81 @@ hs_err_pid*
     <h1></strong></u>Introduction to the Applied Accessibility Challenges</strong></u><h1>
  </header>
  <hr>
- <ul>
-  <li>Add a Text Alternative to Images for Visually Impaired Accessibility</li>
-  <li>Know When Alt Text Should be Left Blank</li>
-  <li>Use Headings to Show Hierarchical Relationships of Content</li>
-  <li>Jump Straight to the Content Using the main Element</li>
-  <li>Wrap Content in the article Element</li>
-  <li>Make Screen Reader Navigation Easier with the header Landmark</li>
-  <li>Make Screen Reader Navigation Easier with the nav Landmark</li>
-  <li>Make Screen Reader Navigation Easier with the footer Landmark</li>
-  <li>Improve Accessibility of Audio Content with the audio Element</li>
-  <li>Improve Chart Accessibility with the figure Element</li>
-  <li>Improve Form Field Accessibility with the label Element</li>
-  <li>Wrap Radio Buttons in a fieldset Element for Better Accessibility</li>
-  <li>Add an Accessible Date Picker</li>
-  <li>Standardize Times with the HTML5 datetime Attribute</li>
-  <li>Make Elements Only Visible to a Screen Reader by Using Custom CSS</li>
-  <li>Improve Readability with High Contrast Text</li>
-  <li>void Colorblindness Issues by Using Sufficient Contrast</li>
-  <li>Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information</li>
-  <li>Give Links Meaning by Using Descriptive Link Text</li>
-  <li>Make Links Navigatable with HTML Access Keys</li>
-  <li>Use tabindex to Add Keyboard Focus to an Element</li>
-  <li>Use tabindex to Specify the Order of Keyboard Focus for Several Elements</li>
- </ul>
+ <main>
+  <ul>
+   <li>Add a Text Alternative to Images for Visually Impaired Accessibility</li>
+   <li>Know When Alt Text Should be Left Blank</li>
+   <li>Use Headings to Show Hierarchical Relationships of Content</li>
+   <li>Jump Straight to the Content Using the main Element</li>
+   <li>Wrap Content in the article Element</li>
+   <li>Make Screen Reader Navigation Easier with the header Landmark</li>
+   <li>Make Screen Reader Navigation Easier with the nav Landmark</li>
+   <li>Make Screen Reader Navigation Easier with the footer Landmark</li>
+   <li>Improve Accessibility of Audio Content with the audio Element</li>
+   <li>Improve Chart Accessibility with the figure Element</li>
+   <li>Improve Form Field Accessibility with the label Element</li>
+   <li>Wrap Radio Buttons in a fieldset Element for Better Accessibility</li>
+   <li>Add an Accessible Date Picker</li>
+   <li>Standardize Times with the HTML5 datetime Attribute</li>
+   <li>Make Elements Only Visible to a Screen Reader by Using Custom CSS</li>
+   <li>Improve Readability with High Contrast Text</li>
+   <li>void Colorblindness Issues by Using Sufficient Contrast</li>
+   <li>Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information</li>
+   <li>Give Links Meaning by Using Descriptive Link Text</li>
+   <li>Make Links Navigatable with HTML Access Keys</li>
+   <li>Use tabindex to Add Keyboard Focus to an Element</li>
+   <li>Use tabindex to Specify the Order of Keyboard Focus for Several Elements</li>
+  </ul>
+ </main>
+  <hr>
+ <article>
+   <div>
+     <header>
+       <h1><u><strong>Relaxing Music While You Learn</u></strong></h1>
+     </header>
+   </div>
+  <hr>
+  <style>
+   .image-smaller {
+    width: 500px;
+   }
+  </style>
+  <a href="#"><img class"smaller-image" src="https://www.thedj.co.uk/wp-content/uploads/2014/07/music-colour-splash.jpg" alt="colorful music notes, made with splatterd paint">
+   <main>
+     <p>Feel <strong>Free</strong> to play theese <u>Tunes</u> while on this site:</p>
+     <hr>
+  </article>
+    <nav>
+     <audio id="RelaxingMUSIC" controls>
+     <source   src="https://www.bensound.org/bensound-music/bensound-acousticbreeze.mp3" type="audio/mpeg" />
+     </audio>
+       <audio id="DreamyCLASSICS" controls>
+         <source
+         src="https://www.bensound.org/bensound-music/bensound-newdawn.mp3" />   
+         type="audio/mpeg" />
+     </audio>
+     </audio>
+       <audio id="PUNK" controls>
+         <source
+         src="https://www.bensound.org/bensound-music/bensound-punky.mp3" />   
+         type="audio/mpeg" />
+     </audio>
+     </audio>
+       <audio id="JAZZ" controls>
+         <source
+         src="https://www.bensound.org/bensound-music/bensound-thejazzpiano.mp3" />   
+         type="audio/mpeg" />
+     </audio>
+     </audio>
+       <audio id="Frenchy-Jazz" controls>
+         <source
+         src="https://www.bensound.org/bensound-music/bensound-jazzyfrenchy.mp3" />   
+         type="audio/mpeg" />
+     </audio>
+    </nav>
+   </main>
+  <footer>&copy; 2018 OJKT Styles</footer>
+  <!--<p>above is audio with some basic <div> elements over the header and <nav> elements over the audio links. There is also clear use of main, body, footer, header and article tags. even an alt tag for furhter use.</p>-->
+  <hr>
+  <!--End of commit 3-->
 </html>
