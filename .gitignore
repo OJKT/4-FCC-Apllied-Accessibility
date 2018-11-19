@@ -104,4 +104,111 @@ hs_err_pid*
   <!--<p>above is audio with some basic <div> elements over the header and <nav> elements over the audio links. There is also clear use of main, body, footer, header and article tags. even an alt tag for furhter use.</p>-->
   <hr>
   <!--End of commit 3-->
+  	<div id="features">
+  <h1><u>Show heirachial relationships of content:</u></h1>
+  <hr>
+  <main>
+		<br>
+    <h2><u>Semantic Meaning:</u></h2>
+    <h3>what tag your using.</h3>
+    <h3>and what is in that tag.</h3>
+  <br>
+    <h2><u>Main Subjects:</u></h2>
+    <h3>Should only be 1 h1 elelement per page.</h3>
+    <h3>headings are used by search engines to understand the topics of the page.</h3>
+  <br>
+    <h2><u>Parent-Child Relationship:</u></h2>
+    <h3>h1 to h2 to h3 <strong>like this</strong> is correct</h3>
+    <h5>h1 to h2 to h5 <strong>like this</strong> is incorrect.</h5>
+  </main>
+	</div>
+	
+<hr>
+	
+	<form id="form">
+		<h2><u>Survey</u></h2>
+        <ol>Please Enter Your DOB</ol>
+        <label for="pickdate">Preferred Date:</label>
+        <input type="date" id="pickdate" name="date">
+		<br>
+		<label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br>
+      <fieldset>
+        <legend>What level ninja are you?</legend>
+        <input id="newbie" type="radio" name="levels" value="newbie">
+        <label for="newbie">Newbie Kitten</label><br>
+        <input id="intermediate" type="radio" name="levels" value="intermediate">
+        <label for="intermediate">Developing Student</label><br>
+        <input id="master" type="radio" name="levels" value="master">
+        <label for="master">9th Life Master</label>
+      </fieldset>
+      <br>
+      <fieldset>
+      <legend>Select your favorite weapons:</legend>
+      <input id="stars" type="checkbox" name="weapons" value="stars">
+      <label for="stars">Throwing Stars</label><br>
+      <input id="nunchucks" type="checkbox" name="weapons" value="nunchucks">
+      <label for="nunchucks">Nunchucks</label><br>
+      <input id="sai" type="checkbox" name="weapons" value="sai">
+      <label for="sai">Sai Set</label><br>
+      <input id="sword" type="checkbox" name="weapons" value="sword">
+      <label for="sword">Sword</label>
+      </fieldset>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+	</form>
+	
+<br>
+<hr>
+	
+	<div id="section">
+	<table id="sr-only">
+      <h2 id="caption">a table to show most used elements.</h2>
+      <thead>
+        <tr>
+          <th></th>
+          <th scope="col">hr &amp; br</th>
+          <th scope="col">li</th>
+          <th scope="col">id</th>
+          <th scope="col">Total</th>                                        
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Pen One</th>
+          <td>3</td>
+          <td>5</td>
+          <td>2</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row">Pen Two</th>
+          <td>4</td>
+          <td>5</td>
+          <td>3</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <th scope="row">Pen Three</th>
+          <td>4</td>
+          <td>6</td>
+          <td>3</td>
+          <td>13</td>
+        </tr>
+      </tbody>
+    </table>
+ </div>
+	
+<hr>
+	
+	<footer id="footer">
+		<ol>
+			<i><a href="#">Privacy  .</a></i>
+      <i><a href="#">Terms  .</a></i>
+      <i><a href="https://www.facebook.com/Active-Boardom-1433050133615965/?__tn__=kC-R&eid=ARDxFnA2JMu6bjlwqWvI3V1d0Rce9HdYBzDGGtJp0BhH-ueOlTAQbh0whATwwgFna9sm9jkboRpjWJnD&hc_ref=ARQaDkOV-XEkdyZItVQH9yuafF_narIIMZukBWJoaFoVgKTTBr5qBLQ1pDtdCP1cxF0&fref=nf&__xts__[0]=68.ARDYkTx9CsRT4OGTCvkO4FfhIcApAmkjQ-zBxaLHt1nqutrcdBfuonVlBKBXLg-l6giN-MiLriy2iHhYK3-uZ7l8efaHcYfOQPPUo3YknyBCljz10jZVwawd_JPGlqxxUxpaKdDVOc7vv4zQb1gvTtbiga9MLXcGfadpQU6YN_ZFZFBORq0wTJ2gjwQWf-hqAyErVWR_HM-_tje583zlZDxOBvyFSIb71aWN5zby5u-Ar3tr-Zn6BXKJ03w-KH30lCsYY8yrgpdS7DWA_-M3ogU_9pI9jGXFww4iDR6qmOdznSinEPP_J0pCY3maDJ4_2n1-a3Uq57kDKz4vC98">Contact  .</a></i> <!--contact-->
+		</ol>
+	    <span>&copy Copyright 2018, OJKT STYLES</span>
+	</footer>
+	
+</div>
 </html>
